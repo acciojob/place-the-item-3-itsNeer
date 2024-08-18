@@ -1,5 +1,11 @@
 .holder{
 	display: flex;
-	justify-content: space-evenly;
+	flex: wrap;
+	justify-content: space-between;
+}
+
+.item{
+	flex: 1 1 auto; /* Allow items to grow and shrink */
+	
 }
 /* Your CSS Code here. */
